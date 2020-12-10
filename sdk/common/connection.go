@@ -23,8 +23,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 // NsmConnection is a NSM manager connection

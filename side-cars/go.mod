@@ -1,4 +1,4 @@
-module cisco-app-networking.github.io/networkservicemesh/side-cars
+module github.com/adodon2go/networkservicemesh/side-cars
 
 go 1.13
 

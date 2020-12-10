@@ -7,7 +7,7 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
 )
 
 type testChainForwarderServer struct {

@@ -19,11 +19,11 @@ package main
 import (
 	"os"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/artifacts"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/artifacts"
 
 	"k8s.io/client-go/kubernetes"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
 
 	"github.com/sirupsen/logrus"
 

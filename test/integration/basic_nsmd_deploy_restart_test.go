@@ -10,7 +10,7 @@ import (
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
 )
 
 func TestNSMgrRestartDeploy(t *testing.T) {

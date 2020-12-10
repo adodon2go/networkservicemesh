@@ -6,12 +6,12 @@ import (
 	"github.com/golang/protobuf/proto"
 	"k8s.io/apimachinery/pkg/types"
 
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/utils"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	v1 "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	v1 "github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
 )
 
 const PodNameEnv = utils.EnvVar("POD_NAME")

@@ -25,16 +25,16 @@ import (
 
 	"github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/monitor/remote"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/monitor/remote"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 const sendPeriod = time.Millisecond * 15

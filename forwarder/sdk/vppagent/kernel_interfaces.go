@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/converter"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/forwarder/vppagent/pkg/converter"
 )
 
 //KernelInterfaces creates forwarder server handler with creation dataChange config for kernel and not direct memif connections

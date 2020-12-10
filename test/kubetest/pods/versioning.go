@@ -19,12 +19,12 @@ import (
 	"os"
 	"strings"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/jaeger"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/jaeger"
+	"github.com/adodon2go/networkservicemesh/utils"
 
 	v1 "k8s.io/api/core/v1"
 )

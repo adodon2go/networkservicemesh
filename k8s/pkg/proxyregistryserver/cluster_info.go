@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/clusterinfo"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/clusterinfo"
 )
 
 type k8sClusterInfo struct {

@@ -23,18 +23,18 @@ import (
 	"strconv"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"github.com/pkg/errors"
 
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	monitor_crossconnect "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	monitor_crossconnect "github.com/adodon2go/networkservicemesh/sdk/monitor/crossconnect"
 )
 
 type NSMForwarder interface {

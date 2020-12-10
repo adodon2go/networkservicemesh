@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/remote"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/remote"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/api/nsm"
-	remoteMonitor "cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/monitor/remote"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/api/nsm"
+	remoteMonitor "github.com/adodon2go/networkservicemesh/controlplane/pkg/monitor/remote"
 
 	"github.com/pkg/errors"
 
@@ -19,24 +19,24 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes/health"
+	"github.com/adodon2go/networkservicemesh/pkg/probes"
+	"github.com/adodon2go/networkservicemesh/pkg/probes/health"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	unified "cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/nsmdapi"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nseregistry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/services"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
-	monitor_crossconnect "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	unified "github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/nsmdapi"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/nseregistry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/serviceregistry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/services"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
+	monitor_crossconnect "github.com/adodon2go/networkservicemesh/sdk/monitor/crossconnect"
 )
 
 const (

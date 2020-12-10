@@ -5,25 +5,25 @@ import (
 	"testing"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/prefix_pool"
+	"github.com/adodon2go/networkservicemesh/sdk/prefix_pool"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/api/nsm"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/api/nsm"
 
 	. "github.com/onsi/gomega"
 	"golang.org/x/net/context"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 )
 
 func TestHealRemoteNSE(t *testing.T) {

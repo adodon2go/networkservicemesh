@@ -11,9 +11,9 @@ import (
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/nsmd"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 )
 
 func TestNSMgrRestartRestoreNSE(t *testing.T) {

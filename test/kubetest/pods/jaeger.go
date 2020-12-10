@@ -3,7 +3,7 @@ package pods
 import (
 	"fmt"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/jaeger"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/jaeger"
 
 	v1 "k8s.io/api/core/v1"
 	v12 "k8s.io/apimachinery/pkg/apis/meta/v1"

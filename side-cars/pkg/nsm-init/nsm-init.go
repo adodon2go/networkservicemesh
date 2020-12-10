@@ -17,17 +17,17 @@ package nsminit
 import (
 	"context"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/jaeger"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/client"
+	"github.com/adodon2go/networkservicemesh/sdk/client"
 )
 
 type nsmClientApp struct {

@@ -1,4 +1,4 @@
-cisco-app-networking.github.io/networkservicemesh v0.2.1 h1:uXcreO5OMMlB/SSiXlnU6xJGhSDJ2WOV2fn9Sj1le7M=
+github.com/adodon2go/networkservicemesh v0.2.1 h1:uXcreO5OMMlB/SSiXlnU6xJGhSDJ2WOV2fn9Sj1le7M=
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 git.fd.io/govpp.git v0.3.6-0.20200907135408-e517439567ad/go.mod h1:pCG9BwUtf+AwnHQWe3/Bk9URmfG0nRoM5DHA794z0/Y=
 github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78/go.mod h1:LmzpDX56iTiv29bbRTIsUNlaFfuhWRQBWjQdVyAevI8=

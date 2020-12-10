@@ -19,7 +19,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/utils"
 )
 
 var version string

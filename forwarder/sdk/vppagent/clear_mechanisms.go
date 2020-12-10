@@ -10,9 +10,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/configurator"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/converter"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/forwarder/vppagent/pkg/converter"
 )
 
 type clearMechanisms struct {

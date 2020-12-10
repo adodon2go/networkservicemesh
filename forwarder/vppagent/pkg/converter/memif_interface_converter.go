@@ -18,7 +18,7 @@ import (
 	"os"
 	"path"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/memif"
 
 	"github.com/pkg/errors"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/configurator"
@@ -26,8 +26,8 @@ import (
 	vpp_interfaces "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/interfaces"
 	vpp_l3 "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/l3"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
 )
 
 type MemifInterfaceConverter struct {

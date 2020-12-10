@@ -19,7 +19,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
 )
 
 // IsRemote returns if connection is remote

@@ -4,7 +4,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
 )
 
 // Clone clones request

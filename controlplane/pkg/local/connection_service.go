@@ -19,16 +19,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
 )
 
 type connectionService struct {

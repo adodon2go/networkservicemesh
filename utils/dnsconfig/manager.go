@@ -29,8 +29,8 @@ import (
 
 	"github.com/caddyserver/caddy/caddyfile"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	caddyfile_utils "cisco-app-networking.github.io/networkservicemesh/utils/caddyfile"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	caddyfile_utils "github.com/adodon2go/networkservicemesh/utils/caddyfile"
 )
 
 const anyDomain = "."

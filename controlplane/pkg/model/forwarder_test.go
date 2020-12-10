@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/memif"
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
 )
 
 func TestAddAndGetDp(t *testing.T) {

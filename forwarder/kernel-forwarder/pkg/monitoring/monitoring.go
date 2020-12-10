@@ -26,9 +26,9 @@ import (
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/metrics"
-	"cisco-app-networking.github.io/networkservicemesh/utils/fs"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/metrics"
+	"github.com/adodon2go/networkservicemesh/utils/fs"
 )
 
 // Metrics monitoring instance type

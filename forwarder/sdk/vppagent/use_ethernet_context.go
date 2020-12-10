@@ -20,17 +20,17 @@ import (
 	"context"
 	"strings"
 
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/converter"
+	"github.com/adodon2go/networkservicemesh/forwarder/vppagent/pkg/converter"
 
 	"go.ligato.io/vpp-agent/v3/proto/ligato/linux"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/configurator"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
 )
 
 //UseEthernetContext fills ethernet context for dst interface if it is empty

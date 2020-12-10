@@ -10,8 +10,8 @@ import (
 	"go.ligato.io/vpp-agent/v3/proto/ligato/configurator"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/vpp"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
 )
 
 const (

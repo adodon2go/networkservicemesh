@@ -26,7 +26,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
 )
 
 const (

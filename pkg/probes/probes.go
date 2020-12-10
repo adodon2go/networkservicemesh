@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes/health"
+	"github.com/adodon2go/networkservicemesh/pkg/probes/health"
 
 	"github.com/sirupsen/logrus"
 )

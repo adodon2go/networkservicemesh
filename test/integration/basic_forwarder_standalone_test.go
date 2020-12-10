@@ -12,22 +12,22 @@ import (
 	"testing"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/memif"
 
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	forwarderapi "cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	forwarderapi "github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 )
 
 const (

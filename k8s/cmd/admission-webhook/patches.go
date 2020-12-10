@@ -6,7 +6,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/client"
+	"github.com/adodon2go/networkservicemesh/sdk/client"
 )
 
 type patchOperation struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"

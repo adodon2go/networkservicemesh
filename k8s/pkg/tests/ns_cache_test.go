@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/registryserver/resourcecache"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/registryserver/resourcecache"
 
 	. "github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	v1 "github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
 )
 
 func TestNsCacheConcurrentModification(t *testing.T) {

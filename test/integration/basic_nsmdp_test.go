@@ -7,9 +7,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/nsmd"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 )
 
 func TestNSMDDP(t *testing.T) {

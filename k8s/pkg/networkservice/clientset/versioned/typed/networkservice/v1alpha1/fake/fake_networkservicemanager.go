@@ -28,7 +28,7 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
 
-	v1alpha1 "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	v1alpha1 "github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
 )
 
 // FakeNetworkServiceManagers implements NetworkServiceManagerInterface

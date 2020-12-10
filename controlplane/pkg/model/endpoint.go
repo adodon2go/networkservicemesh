@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 )
 
 // Endpoint structure in Model that describes NetworkServiceEndpoint

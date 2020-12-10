@@ -25,9 +25,9 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
 
-	clientset "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
-	networkservicev1alpha1 "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/clientset/versioned/typed/networkservice/v1alpha1"
-	fakenetworkservicev1alpha1 "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/clientset/versioned/typed/networkservice/v1alpha1/fake"
+	clientset "github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
+	networkservicev1alpha1 "github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/clientset/versioned/typed/networkservice/v1alpha1"
+	fakenetworkservicev1alpha1 "github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/clientset/versioned/typed/networkservice/v1alpha1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/utils"
 
 	"github.com/pkg/errors"
 
@@ -32,7 +32,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 )
 
 const (

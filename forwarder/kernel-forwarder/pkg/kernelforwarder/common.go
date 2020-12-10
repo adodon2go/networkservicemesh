@@ -23,10 +23,10 @@ import (
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	"cisco-app-networking.github.io/networkservicemesh/utils/fs"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/utils/fs"
 )
 
 // SetupInterface - setup interface to namespace

@@ -5,16 +5,16 @@ import (
 	"path"
 	"testing"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/memif"
 
 	. "github.com/onsi/gomega"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/vpp"
 	vpp_interfaces "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/interfaces"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	. "cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/converter"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	. "github.com/adodon2go/networkservicemesh/forwarder/vppagent/pkg/converter"
 )
 
 const (

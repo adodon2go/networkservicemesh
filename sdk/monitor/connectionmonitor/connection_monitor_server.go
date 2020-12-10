@@ -20,8 +20,8 @@ package connectionmonitor
 import (
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
 )
 
 // MonitorServer is a monitor.Server for local/connection GRPC API

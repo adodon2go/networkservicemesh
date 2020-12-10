@@ -4,18 +4,18 @@ import (
 	"net"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/sid"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/sid"
 
 	"golang.org/x/net/context"
 
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/nsmdapi"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/vni"
-	forwarderapi "cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/nsmdapi"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/vni"
+	forwarderapi "github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
 )
 
 type ApiRegistry interface {

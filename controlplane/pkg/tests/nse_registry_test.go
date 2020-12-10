@@ -7,8 +7,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nseregistry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/nseregistry"
 )
 
 func TestNSEFileRegistry(t *testing.T) {

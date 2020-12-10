@@ -7,7 +7,7 @@ import (
 
 	"github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
 )
 
 func TestParseDNSConfigsFromCaddyfile(t *testing.T) {

@@ -7,13 +7,13 @@ import (
 	"os"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes/health"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/pkg/probes"
+	"github.com/adodon2go/networkservicemesh/pkg/probes/health"
+	"github.com/adodon2go/networkservicemesh/utils"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 var version string

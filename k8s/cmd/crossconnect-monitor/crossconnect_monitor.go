@@ -18,11 +18,11 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	metricspkg "cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/metrics"
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/namespace"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	metricspkg "github.com/adodon2go/networkservicemesh/controlplane/pkg/metrics"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/namespace"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 var closing = false

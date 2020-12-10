@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
 )
 
 // Event is a monitor.Event for crossconnect GRPC API

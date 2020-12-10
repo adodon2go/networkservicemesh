@@ -35,7 +35,7 @@ ARG VENDORING
 ARG GOPROXY
 
 ENV GOPROXY=${GOPROXY}
-ENV PACKAGEPATH=cisco-app-networking.github.io/networkservicemesh/forwarder
+ENV PACKAGEPATH=github.com/adodon2go/networkservicemesh/forwarder
 ENV GO111MODULE=on
 
 RUN mkdir /root/networkservicemesh

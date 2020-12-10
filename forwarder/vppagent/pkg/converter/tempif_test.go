@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
 
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/converter"
+	"github.com/adodon2go/networkservicemesh/forwarder/vppagent/pkg/converter"
 )
 
 func TestTempIf(t *testing.T) {

@@ -3,12 +3,12 @@ package endpoint
 import (
 	"context"
 
-	connectionMonitor "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
+	connectionMonitor "github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
 )
 
 type contextKeyType string

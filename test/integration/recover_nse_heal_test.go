@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
 )
 
 func TestNSEHealLocal(t *testing.T) {

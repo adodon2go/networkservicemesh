@@ -3,15 +3,15 @@ package vppagent
 import (
 	"context"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"github.com/pkg/errors"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/configurator"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
 )
 
 type commit struct {

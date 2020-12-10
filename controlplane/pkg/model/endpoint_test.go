@@ -8,7 +8,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 )
 
 func TestAddAndGetEndpoint(t *testing.T) {

@@ -1,4 +1,4 @@
-module cisco-app-networking.github.io/networkservicemesh/controlplane
+module github.com/adodon2go/networkservicemesh/controlplane
 
 go 1.15
 

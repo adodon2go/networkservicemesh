@@ -5,19 +5,19 @@ import (
 	"testing"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 
 	. "github.com/onsi/gomega"
 	"golang.org/x/net/context"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 )
 
 func TestHealLocalForwarder(t *testing.T) {

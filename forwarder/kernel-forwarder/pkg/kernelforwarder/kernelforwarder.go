@@ -22,16 +22,16 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/status"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/wireguard"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder/local"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder/remote"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/kernel-forwarder/pkg/monitoring"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/wireguard"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder/local"
+	"github.com/adodon2go/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder/remote"
+	"github.com/adodon2go/networkservicemesh/forwarder/kernel-forwarder/pkg/monitoring"
+	"github.com/adodon2go/networkservicemesh/forwarder/pkg/common"
 )
 
 // KernelForwarder instance

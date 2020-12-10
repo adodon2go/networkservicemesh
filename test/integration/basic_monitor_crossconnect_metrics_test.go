@@ -13,9 +13,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	metricspkg "cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/metrics"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	metricspkg "github.com/adodon2go/networkservicemesh/controlplane/pkg/metrics"
 
 	"testing"
 	"time"
@@ -23,9 +23,9 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/forwarder/pkg/common"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 )
 
 func TestSimpleMetrics(t *testing.T) {

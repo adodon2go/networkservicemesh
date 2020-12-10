@@ -20,7 +20,7 @@ import (
 
 	v12 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	nsapiv1 "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	nsapiv1 "github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
 )
 
 // SecureIntranetConnectivity creates a NetworkService

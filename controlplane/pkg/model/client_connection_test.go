@@ -8,8 +8,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 )
 
 func TestAddAndGetСс(t *testing.T) {

@@ -11,15 +11,15 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/clusterinfo"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	common2 "cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/utils/interdomain"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/clusterinfo"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	common2 "github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/serviceregistry"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/utils/interdomain"
 )
 
 // Default values and environment variables of proxy connection

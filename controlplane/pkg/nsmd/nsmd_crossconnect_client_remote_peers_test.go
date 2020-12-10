@@ -21,9 +21,9 @@ import (
 
 	"github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/services"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/services"
 )
 
 func TestNSMDCrossConnectClient_ShouldCorrectlyWork_WhenRemotePeerCanceled(t *testing.T) {

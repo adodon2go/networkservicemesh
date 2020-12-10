@@ -20,25 +20,25 @@ import (
 	"sync"
 	"time"
 
-	connectionMonitor "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
+	connectionMonitor "github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/api/nsm"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/api/nsm"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/common"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/services"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
-	monitor_crossconnect "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/services"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
+	monitor_crossconnect "github.com/adodon2go/networkservicemesh/sdk/monitor/crossconnect"
 )
 
 const (

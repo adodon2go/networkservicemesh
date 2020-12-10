@@ -9,8 +9,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 )
 
 func TestBasicDns(t *testing.T) {

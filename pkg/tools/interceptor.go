@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"

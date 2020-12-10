@@ -1,6 +1,6 @@
 package metrics
 
-import "cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
+import "github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
 
 type MetricsMonitor interface {
 	HandleMetrics(statistics map[string]*crossconnect.Metrics)

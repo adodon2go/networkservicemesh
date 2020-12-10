@@ -8,7 +8,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
 )
 
 func TestKubernetesAreOk(t *testing.T) {

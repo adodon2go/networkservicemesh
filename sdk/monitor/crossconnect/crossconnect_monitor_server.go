@@ -5,9 +5,9 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/metrics"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/metrics"
 )
 
 // MonitorServer is a monitor.Server for crossconnect GRPC API

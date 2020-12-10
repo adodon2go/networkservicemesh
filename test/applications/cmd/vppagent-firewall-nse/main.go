@@ -21,13 +21,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"github.com/adodon2go/networkservicemesh/utils"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/endpoint"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/vppagent"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/sdk/endpoint"
+	"github.com/adodon2go/networkservicemesh/sdk/vppagent"
 )
 
 var version string

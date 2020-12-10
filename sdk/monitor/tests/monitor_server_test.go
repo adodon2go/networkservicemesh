@@ -14,9 +14,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	monitor_crossconnect "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	monitor_crossconnect "github.com/adodon2go/networkservicemesh/sdk/monitor/crossconnect"
 )
 
 func startClient(g *WithT, target string, ids ...string) {

@@ -21,7 +21,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/applications/nsmrs/pkg/serviceregistryserver"
+	"github.com/adodon2go/networkservicemesh/applications/nsmrs/pkg/serviceregistryserver"
 )
 
 func TestNSMRSCacheAdd(t *testing.T) {

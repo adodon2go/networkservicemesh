@@ -3,16 +3,16 @@ package remote
 import (
 	"context"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 
-	"cisco-app-networking.github.io/networkservicemesh/utils/interdomain"
+	"github.com/adodon2go/networkservicemesh/utils/interdomain"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
 )
 
 const (

@@ -24,13 +24,13 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/teris-io/shortid"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/cls"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/cls"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
 )
 
 // ConnectionEndpoint makes basic Mechanism selection for the incoming connection

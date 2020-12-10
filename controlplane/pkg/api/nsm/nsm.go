@@ -17,20 +17,20 @@ package nsm
 import (
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/properties"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/properties"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
-	crossconnect_monitor "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/serviceregistry"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
+	crossconnect_monitor "github.com/adodon2go/networkservicemesh/sdk/monitor/crossconnect"
 
 	"golang.org/x/net/context"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 )
 
 // ClientConnection is an interface for client connection

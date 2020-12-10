@@ -5,12 +5,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
 )
 
 // ClientConnectionState describes state of ClientConnection

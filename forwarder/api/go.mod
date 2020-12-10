@@ -1,4 +1,4 @@
-module cisco-app-networking.github.io/networkservicemesh/forwarder/api
+module github.com/adodon2go/networkservicemesh/forwarder/api
 
 go 1.15
 

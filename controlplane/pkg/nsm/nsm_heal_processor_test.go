@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/properties"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/properties"
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	unified "cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/common"
+	unified "github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/common"
 
 	"github.com/golang/protobuf/proto"
 	. "github.com/onsi/gomega"
@@ -18,15 +18,15 @@ import (
 	net_context "golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/api/nsm"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
-	test_utils "cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/tests/utils"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/crossconnect"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/api/nsm"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/nsmd"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/serviceregistry"
+	test_utils "github.com/adodon2go/networkservicemesh/controlplane/pkg/tests/utils"
 )
 
 const (

@@ -19,7 +19,7 @@
 package v1alpha1
 
 import (
-	internalinterfaces "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

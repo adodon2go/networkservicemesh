@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/utils"
 )
 
 const (

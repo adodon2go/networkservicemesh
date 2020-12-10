@@ -34,14 +34,14 @@ import (
 
 	pkgerrors "github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/namespace"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/prefix_pool"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/artifacts"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
-	nsmrbac "cisco-app-networking.github.io/networkservicemesh/test/kubetest/rbac"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/namespace"
+	"github.com/adodon2go/networkservicemesh/sdk/prefix_pool"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/artifacts"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
+	nsmrbac "github.com/adodon2go/networkservicemesh/test/kubetest/rbac"
+	"github.com/adodon2go/networkservicemesh/utils"
 )
 
 const (

@@ -1,10 +1,10 @@
 package remote
 
 import (
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/services"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/services"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
 )
 
 // MonitorServer is a monitor.Server for remote/connection GRPC API

@@ -19,16 +19,16 @@ import (
 	"fmt"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/jaeger"
 
-	nsminit "cisco-app-networking.github.io/networkservicemesh/side-cars/pkg/nsm-init"
+	nsminit "github.com/adodon2go/networkservicemesh/side-cars/pkg/nsm-init"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/client"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/sdk/client"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
 )
 
 const (

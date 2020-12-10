@@ -6,23 +6,23 @@ import (
 	"sync"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/properties"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/properties"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/api/nsm"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/api/nsm"
 
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/common"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/serviceregistry"
 )
 
 type healProcessor struct {

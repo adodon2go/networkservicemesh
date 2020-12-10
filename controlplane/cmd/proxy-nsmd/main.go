@@ -7,23 +7,23 @@ import (
 	"strings"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/utils"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes/health"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
+	"github.com/adodon2go/networkservicemesh/pkg/probes/health"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/jaeger"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes"
+	"github.com/adodon2go/networkservicemesh/pkg/probes"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/monitor/remote"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/nsmd"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/serviceregistry"
+	"github.com/adodon2go/networkservicemesh/sdk/monitor/remote"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	unified "cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	proxynetworkserviceserver "cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/remote/proxy_network_service_server"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	unified "github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	proxynetworkserviceserver "github.com/adodon2go/networkservicemesh/controlplane/pkg/remote/proxy_network_service_server"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 var version string

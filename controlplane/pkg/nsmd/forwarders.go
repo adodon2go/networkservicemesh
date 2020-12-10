@@ -20,7 +20,7 @@ import (
 	"path"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
@@ -29,10 +29,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/model"
-	forwarderapi "cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
-	forwarderregistrarapi "cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarderregistrar"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/model"
+	forwarderapi "github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
+	forwarderregistrarapi "github.com/adodon2go/networkservicemesh/forwarder/api/forwarderregistrar"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 const (

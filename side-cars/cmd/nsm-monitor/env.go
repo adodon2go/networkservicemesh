@@ -1,6 +1,6 @@
 package main
 
-import "cisco-app-networking.github.io/networkservicemesh/utils"
+import "github.com/adodon2go/networkservicemesh/utils"
 
 const (
 	//MonitorDNSConfigsEnv means boolean flag. If the flag is true then nsm-monitor will monitor DNS configs

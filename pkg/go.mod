@@ -1,4 +1,4 @@
-module cisco-app-networking.github.io/networkservicemesh/pkg
+module github.com/adodon2go/networkservicemesh/pkg
 
 go 1.15
 

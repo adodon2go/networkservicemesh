@@ -3,18 +3,18 @@ package registryserver
 import (
 	"context"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/namespace"
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/registryserver/resourcecache"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/namespace"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/registryserver/resourcecache"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	nsmClientset "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	nsmClientset "github.com/adodon2go/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
 )
 
 // New - construct a registration server

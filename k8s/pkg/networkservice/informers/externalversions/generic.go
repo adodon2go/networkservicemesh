@@ -24,7 +24,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
 )
 
 // GenericInformer is type of SharedIndexInformer which will locate and delegate to other

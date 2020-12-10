@@ -12,7 +12,7 @@ import (
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/jaeger"
 )
 
 type spanHelperKeyType string

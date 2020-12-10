@@ -19,10 +19,10 @@ package main
 import (
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/utils/dnsconfig"
+	"github.com/adodon2go/networkservicemesh/utils/dnsconfig"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	"cisco-app-networking.github.io/networkservicemesh/utils/caddyfile"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/utils/caddyfile"
 )
 
 func main() {

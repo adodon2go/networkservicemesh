@@ -16,20 +16,20 @@ import (
 	"sync"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/artifacts"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/artifacts"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/security"
+	"github.com/adodon2go/networkservicemesh/pkg/security"
 
 	"k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/keyutil"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/properties"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/properties"
 
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/applications/cmd/icmp-responder-nse/flags"
+	"github.com/adodon2go/networkservicemesh/test/applications/cmd/icmp-responder-nse/flags"
 
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
@@ -39,13 +39,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
-	nsmd2 "cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/prefix_pool"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/jaeger"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
-	nsmrbac "cisco-app-networking.github.io/networkservicemesh/test/kubetest/rbac"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/registry"
+	nsmd2 "github.com/adodon2go/networkservicemesh/controlplane/pkg/nsmd"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/serviceregistry"
+	"github.com/adodon2go/networkservicemesh/sdk/prefix_pool"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/jaeger"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
+	nsmrbac "github.com/adodon2go/networkservicemesh/test/kubetest/rbac"
 )
 
 type NodeConf struct {

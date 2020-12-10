@@ -9,15 +9,15 @@ import (
 	"github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/cls"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/cls"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/memif"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/endpoint"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/vppagent"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/sdk/endpoint"
+	"github.com/adodon2go/networkservicemesh/sdk/vppagent"
 )
 
 func TestFirewallMemif(t *testing.T) {

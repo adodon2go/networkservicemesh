@@ -31,19 +31,19 @@ import (
 
 	vpp_srv6 "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/srv6"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	mechanisms "cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/srv6"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
-	sdk "cisco-app-networking.github.io/networkservicemesh/forwarder/sdk/vppagent"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/vppagent/kvschedclient"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	mechanisms "github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/srv6"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
+	"github.com/adodon2go/networkservicemesh/forwarder/api/forwarder"
+	"github.com/adodon2go/networkservicemesh/forwarder/pkg/common"
+	sdk "github.com/adodon2go/networkservicemesh/forwarder/sdk/vppagent"
+	"github.com/adodon2go/networkservicemesh/forwarder/vppagent/pkg/vppagent/kvschedclient"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/utils"
 )
 
 // VPPAgent related constants

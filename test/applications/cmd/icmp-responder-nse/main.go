@@ -20,20 +20,20 @@ import (
 	"net"
 	"time"
 
-	connectionMonitor "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/connectionmonitor"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	connectionMonitor "github.com/adodon2go/networkservicemesh/sdk/monitor/connectionmonitor"
+	"github.com/adodon2go/networkservicemesh/utils"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/applications/cmd/icmp-responder-nse/flags"
+	"github.com/adodon2go/networkservicemesh/test/applications/cmd/icmp-responder-nse/flags"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connectioncontext"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/endpoint"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connectioncontext"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/networkservice"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/sdk/endpoint"
 )
 
 var version string

@@ -22,7 +22,7 @@ package networkservice;
 
 option go_package = "networkservice";
 
-import "cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/connection.proto";
+import "github.com/adodon2go/networkservicemesh/controlplane/api/connection/connection.proto";
 import "ptypes/empty/empty.proto";
 
 message NetworkServiceRequest {

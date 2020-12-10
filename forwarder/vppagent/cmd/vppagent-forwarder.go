@@ -17,17 +17,17 @@ package main
 import (
 	"context"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/jaeger"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/spanhelper"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/probes"
+	"github.com/adodon2go/networkservicemesh/pkg/probes"
 
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
-	"cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/vppagent"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/forwarder/pkg/common"
+	"github.com/adodon2go/networkservicemesh/forwarder/vppagent/pkg/vppagent"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 var version string

@@ -17,14 +17,14 @@ package main
 import (
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/utils"
 
-	nsmmonitor "cisco-app-networking.github.io/networkservicemesh/side-cars/pkg/nsm-monitor"
+	nsmmonitor "github.com/adodon2go/networkservicemesh/side-cars/pkg/nsm-monitor"
 
-	nsminit "cisco-app-networking.github.io/networkservicemesh/side-cars/pkg/nsm-init"
+	nsminit "github.com/adodon2go/networkservicemesh/side-cars/pkg/nsm-init"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 var version string

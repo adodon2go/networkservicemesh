@@ -12,7 +12,7 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/kubernetes"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/prefix_pool"
+	"github.com/adodon2go/networkservicemesh/sdk/prefix_pool"
 )
 
 type SubnetWatcher struct {

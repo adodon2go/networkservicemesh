@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 type customListener struct {

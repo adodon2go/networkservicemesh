@@ -17,7 +17,7 @@
 // Package tests - unit tests for NSM Registry Server
 package tests
 
-import "cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+import "github.com/adodon2go/networkservicemesh/controlplane/api/registry"
 
 func newTestNse(name, networkServiceName string) *registry.NSERegistration {
 	return newTestNseWithPayload(name, networkServiceName, "IP")

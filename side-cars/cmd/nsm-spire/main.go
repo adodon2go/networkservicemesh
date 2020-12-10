@@ -29,7 +29,7 @@ import (
 	"github.com/spiffe/spire/proto/spire/common"
 	"google.golang.org/grpc"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
 )
 
 const (

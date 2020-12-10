@@ -1,4 +1,4 @@
-module cisco-app-networking.github.io/networkservicemesh/applications/nsmrs
+module github.com/adodon2go/networkservicemesh/applications/nsmrs
 
 go 1.13
 

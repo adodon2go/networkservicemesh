@@ -17,18 +17,18 @@ package main
 import (
 	"context"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection/mechanisms/kernel"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/jaeger"
+	"github.com/adodon2go/networkservicemesh/utils"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
+	"github.com/adodon2go/networkservicemesh/sdk/common"
 
-	nsmmonitor "cisco-app-networking.github.io/networkservicemesh/side-cars/pkg/nsm-monitor"
+	nsmmonitor "github.com/adodon2go/networkservicemesh/side-cars/pkg/nsm-monitor"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/sdk/client"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/sdk/client"
 )
 
 const (

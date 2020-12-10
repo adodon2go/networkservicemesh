@@ -16,7 +16,7 @@
 
 package artifacts
 
-import "cisco-app-networking.github.io/networkservicemesh/utils"
+import "github.com/adodon2go/networkservicemesh/utils"
 
 const (
 	printToConsole   utils.EnvVar = "ARTIFACTS_PRINT_INTO_CONSOLE"

@@ -5,15 +5,15 @@ import (
 	"os"
 	"strings"
 
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
-	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
+	"github.com/adodon2go/networkservicemesh/pkg/tools"
+	"github.com/adodon2go/networkservicemesh/pkg/tools/jaeger"
 
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/proxyregistryserver"
-	k8s_utils "cisco-app-networking.github.io/networkservicemesh/k8s/pkg/utils"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/proxyregistryserver"
+	k8s_utils "github.com/adodon2go/networkservicemesh/k8s/pkg/utils"
 
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"github.com/adodon2go/networkservicemesh/utils"
 )
 
 var version string

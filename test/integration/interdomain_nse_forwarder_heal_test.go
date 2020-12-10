@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
 )
 
 func TestInterdomainNSCAndICMPForwarderHealLocal(t *testing.T) {

@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
 )
 
 func TestInterdomainNSCAndICMPRemote(t *testing.T) {

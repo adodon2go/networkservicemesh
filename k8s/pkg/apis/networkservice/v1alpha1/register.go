@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/apis/networkservice"
 )
 
 var SchemeGroupVersion = schema.GroupVersion{

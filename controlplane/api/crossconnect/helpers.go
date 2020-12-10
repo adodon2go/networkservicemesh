@@ -3,7 +3,7 @@ package crossconnect
 import (
 	"github.com/pkg/errors"
 
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
+	"github.com/adodon2go/networkservicemesh/controlplane/api/connection"
 )
 
 // NewCrossConnect creates a new crossConnect

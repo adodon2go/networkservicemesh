@@ -25,12 +25,12 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"cisco-app-networking.github.io/networkservicemesh/applications/nsmrs/pkg/serviceregistryserver"
-	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
+	"github.com/adodon2go/networkservicemesh/applications/nsmrs/pkg/serviceregistryserver"
+	"github.com/adodon2go/networkservicemesh/controlplane/pkg/nsmd"
 
-	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/proxyregistryserver"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
-	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"github.com/adodon2go/networkservicemesh/k8s/pkg/proxyregistryserver"
+	"github.com/adodon2go/networkservicemesh/test/kubetest"
+	"github.com/adodon2go/networkservicemesh/test/kubetest/pods"
 )
 
 func TestFloatingInterdomainDieNSE(t *testing.T) {
