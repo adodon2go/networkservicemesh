@@ -1,8 +1,10 @@
-module github.com/adodon2go/networkservicemesh/utils
+module cisco-app-networking.github.io/networkservicemesh/utils
 
 go 1.15
 
 require (
+	github.com/adodon2go/networkservicemesh/controlplane/api v1.0.2
+	github.com/adodon2go/networkservicemesh/utils v1.0.2
 	github.com/caddyserver/caddy v1.0.5
 	github.com/onsi/gomega v1.10.4
 	github.com/pkg/errors v0.9.1

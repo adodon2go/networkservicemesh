@@ -1,16 +1,24 @@
-module github.com/adodon2go/networkservicemesh/k8s
+module cisco-app-networking.github.io/networkservicemesh/k8s
 
 go 1.15
 
 require (
-	github.com/golang/protobuf v1.3.2
-	github.com/onsi/gomega v1.7.0
-	github.com/pkg/errors v0.8.1
-	github.com/sirupsen/logrus v1.4.2
-	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
-	google.golang.org/grpc v1.26.0
+	github.com/adodon2go/networkservicemesh/controlplane v1.0.2
+	github.com/adodon2go/networkservicemesh/controlplane/api v1.0.2
+	github.com/adodon2go/networkservicemesh/forwarder/api v1.0.2 // indirect
+	github.com/adodon2go/networkservicemesh/k8s v1.0.2
+	github.com/adodon2go/networkservicemesh/k8s/pkg/apis v1.0.2
+	github.com/adodon2go/networkservicemesh/pkg v1.0.2
+	github.com/adodon2go/networkservicemesh/sdk v1.0.2
+	github.com/adodon2go/networkservicemesh/utils v1.0.2
+	github.com/golang/protobuf v1.4.3
+	github.com/onsi/gomega v1.10.4
+	github.com/pkg/errors v0.9.1
+	github.com/sirupsen/logrus v1.7.0
+	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
+	google.golang.org/grpc v1.34.0
 	k8s.io/api v0.18.1
-	k8s.io/apimachinery v0.18.1
+	k8s.io/apimachinery v0.20.0
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/kubelet v0.0.0
 	k8s.io/kubernetes v1.18.1

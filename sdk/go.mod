@@ -1,8 +1,13 @@
-module github.com/adodon2go/networkservicemesh/sdk
+module cisco-app-networking.github.io/networkservicemesh/sdk
 
 go 1.15
 
 require (
+	github.com/adodon2go/networkservicemesh/controlplane v1.0.2
+	github.com/adodon2go/networkservicemesh/controlplane/api v1.0.2
+	github.com/adodon2go/networkservicemesh/pkg v1.0.2
+	github.com/adodon2go/networkservicemesh/sdk v1.0.2
+	github.com/adodon2go/networkservicemesh/utils v1.0.2
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/golang/protobuf v1.4.3
 	github.com/hashicorp/go-multierror v1.1.0

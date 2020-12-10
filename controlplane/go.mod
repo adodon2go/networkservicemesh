@@ -1,8 +1,14 @@
-module github.com/adodon2go/networkservicemesh/controlplane
+module cisco-app-networking.github.io/networkservicemesh/controlplane
 
 go 1.15
 
 require (
+	github.com/adodon2go/networkservicemesh/controlplane v1.0.2
+	github.com/adodon2go/networkservicemesh/controlplane/api v1.0.2
+	github.com/adodon2go/networkservicemesh/forwarder/api v1.0.2
+	github.com/adodon2go/networkservicemesh/pkg v1.0.2
+	github.com/adodon2go/networkservicemesh/sdk v1.0.2
+	github.com/adodon2go/networkservicemesh/utils v1.0.2
 	github.com/golang/protobuf v1.4.3
 	github.com/onsi/gomega v1.10.4
 	github.com/opentracing/opentracing-go v1.2.0

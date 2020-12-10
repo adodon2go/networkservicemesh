@@ -3,6 +3,11 @@ module github.com/adodon2go/networkservicemesh/forwarder
 go 1.15
 
 require (
+	github.com/adodon2go/networkservicemesh/controlplane/api v1.0.2
+	github.com/adodon2go/networkservicemesh/forwarder/api v1.0.2
+	github.com/adodon2go/networkservicemesh/pkg v1.0.2
+	github.com/adodon2go/networkservicemesh/sdk v1.0.2
+	github.com/adodon2go/networkservicemesh/utils v1.0.2
 	github.com/gogo/protobuf v1.3.1
 	github.com/golang/protobuf v1.4.3
 	github.com/onsi/gomega v1.10.4
