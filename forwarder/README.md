@@ -11,7 +11,7 @@ It should be considered as a baseline that can be further extended when needed.
 * Have the following package imported -
 
 ```go
-"github.com/networkservicemesh/networkservicemesh/forwarder/pkg/common"
+"cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
 ```
 
 * This structure keeps the main forwarder configuration -

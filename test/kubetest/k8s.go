@@ -34,14 +34,14 @@ import (
 
 	pkgerrors "github.com/pkg/errors"
 
-	"github.com/networkservicemesh/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
-	"github.com/networkservicemesh/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
-	"github.com/networkservicemesh/networkservicemesh/k8s/pkg/networkservice/namespace"
-	"github.com/networkservicemesh/networkservicemesh/sdk/prefix_pool"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/artifacts"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
-	nsmrbac "github.com/networkservicemesh/networkservicemesh/test/kubetest/rbac"
-	"github.com/networkservicemesh/networkservicemesh/utils"
+	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/apis/networkservice/v1alpha1"
+	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/clientset/versioned"
+	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/namespace"
+	"cisco-app-networking.github.io/networkservicemesh/sdk/prefix_pool"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/artifacts"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	nsmrbac "cisco-app-networking.github.io/networkservicemesh/test/kubetest/rbac"
+	"cisco-app-networking.github.io/networkservicemesh/utils"
 )
 
 const (

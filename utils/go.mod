@@ -1,21 +1,11 @@
 module cisco-app-networking.github.io/networkservicemesh/utils
 
-go 1.13
+go 1.15
 
 require (
 	github.com/caddyserver/caddy v1.0.5
-	github.com/networkservicemesh/networkservicemesh/controlplane/api v0.3.0
-	github.com/networkservicemesh/networkservicemesh/utils v0.0.0-00010101000000-000000000000
-	github.com/onsi/gomega v1.7.0
-	github.com/pkg/errors v0.8.1
-	github.com/sirupsen/logrus v1.4.2
-	github.com/vishvananda/netns v0.0.0-20190625233234-7109fa855b0f
-)
-
-replace github.com/census-instrumentation/opencensus-proto v0.1.0-0.20181214143942-ba49f56771b8 => github.com/census-instrumentation/opencensus-proto v0.0.3-0.20181214143942-ba49f56771b8
-
-replace (
-	github.com/networkservicemesh/networkservicemesh/controlplane/api => ../controlplane/api
-	github.com/networkservicemesh/networkservicemesh/pkg => ../pkg
-	github.com/networkservicemesh/networkservicemesh/utils => ./
+	github.com/onsi/gomega v1.10.4
+	github.com/pkg/errors v0.9.1
+	github.com/sirupsen/logrus v1.7.0
+	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae
 )

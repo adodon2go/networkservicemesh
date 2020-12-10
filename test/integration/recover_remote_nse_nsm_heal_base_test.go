@@ -26,11 +26,11 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/nsmd"
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/properties"
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/remote"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/properties"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/remote"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
 )
 
 func testNSMHealRemoteDieNSMD_NSE(t *testing.T, remoteMechanism string) {

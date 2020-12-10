@@ -6,8 +6,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 	v12 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/nsmd"
-	"github.com/networkservicemesh/networkservicemesh/k8s/pkg/networkservice/namespace"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
+	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/namespace"
 )
 
 const (
@@ -243,9 +243,9 @@ func updateSpec(pod *v1.Pod, index int, app string, mode NSMgrContainerMode) {
 	pod.Spec.Containers[index].VolumeMounts = append(pod.Spec.Containers[index].VolumeMounts, newDevSrcMount())
 	pod.Spec.Containers[index].Command = []string{"bash"}
 	if mode == NSMgrContainerDebug {
-		pod.Spec.Containers[index].Args = []string{"/go/src/github.com/networkservicemesh/networkservicemesh/scripts/debug.sh", app}
+		pod.Spec.Containers[index].Args = []string{"/go/src/cisco-app-networking.github.io/networkservicemesh/scripts/debug.sh", app}
 	} else {
-		pod.Spec.Containers[index].Args = []string{"/go/src/github.com/networkservicemesh/networkservicemesh/scripts/run.sh", app}
+		pod.Spec.Containers[index].Args = []string{"/go/src/cisco-app-networking.github.io/networkservicemesh/scripts/run.sh", app}
 	}
 	pod.Spec.Containers[index].Image = "networkservicemesh/devenv"
 }

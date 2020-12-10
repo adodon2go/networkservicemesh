@@ -21,8 +21,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/artifacts"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/jaeger"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/artifacts"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/jaeger"
 )
 
 type jaegerTracesFinder struct {

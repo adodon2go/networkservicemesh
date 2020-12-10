@@ -3,7 +3,7 @@ package kubetest
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
 )
 
 // DefaultForwarderVariables - Default variables for forwarder deployment

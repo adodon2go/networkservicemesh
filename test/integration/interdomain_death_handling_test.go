@@ -8,16 +8,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/properties"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/properties"
 
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/nsmd"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
 
 	. "github.com/onsi/gomega"
 
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
 )
 
 var nseNoHealPodConfig = &pods.NSMgrPodConfig{

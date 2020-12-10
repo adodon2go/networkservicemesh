@@ -12,8 +12,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/yaml"
 	"k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
 
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
 )
 
 func TestK8sExcludedPrefixes(t *testing.T) {

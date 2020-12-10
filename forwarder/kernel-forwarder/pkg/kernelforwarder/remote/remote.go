@@ -25,9 +25,9 @@ import (
 	"github.com/pkg/errors"
 	wg "golang.zx2c4.com/wireguard/device"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection"
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection/mechanisms/wireguard"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/wireguard"
 )
 
 // INCOMING, OUTGOING - packet direction constants

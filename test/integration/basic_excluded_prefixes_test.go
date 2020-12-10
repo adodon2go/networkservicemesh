@@ -9,11 +9,11 @@ import (
 	. "github.com/onsi/gomega"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/nsmd"
-	"github.com/networkservicemesh/networkservicemesh/k8s/pkg/prefixcollector"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
-	"github.com/networkservicemesh/networkservicemesh/utils"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
+	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/prefixcollector"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	"cisco-app-networking.github.io/networkservicemesh/utils"
 )
 
 func TestExcludePrefixCheck(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/configurator"
 
-	"github.com/networkservicemesh/networkservicemesh/forwarder/api/forwarder"
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools"
-	monitor_crossconnect "github.com/networkservicemesh/networkservicemesh/sdk/monitor/crossconnect"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	monitor_crossconnect "cisco-app-networking.github.io/networkservicemesh/sdk/monitor/crossconnect"
 )
 
 type contextKeyType string

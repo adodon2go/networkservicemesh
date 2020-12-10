@@ -20,7 +20,7 @@ import (
 
 	vpp_l3 "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/l3"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection/mechanisms/srv6"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/srv6"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -29,9 +29,9 @@ import (
 	vpp_interfaces "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/interfaces"
 	vpp_srv6 "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/srv6"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/vxlan"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
 )
 
 // RemoteConnectionConverter described the remote connection

@@ -1,6 +1,6 @@
 package kubetest
 
-import "github.com/networkservicemesh/networkservicemesh/forwarder/pkg/common"
+import "cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
 
 // DefaultPlaneVariablesKernel - Default variables for Kernel forwarding deployment
 func DefaultPlaneVariablesKernel() map[string]string {

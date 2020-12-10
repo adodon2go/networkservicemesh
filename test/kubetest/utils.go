@@ -16,20 +16,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/artifacts"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/artifacts"
 
-	"github.com/networkservicemesh/networkservicemesh/pkg/security"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/security"
 
 	"k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/keyutil"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/properties"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/properties"
 
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
 
-	"github.com/networkservicemesh/networkservicemesh/test/applications/cmd/icmp-responder-nse/flags"
+	"cisco-app-networking.github.io/networkservicemesh/test/applications/cmd/icmp-responder-nse/flags"
 
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
@@ -39,13 +39,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/registry"
-	nsmd2 "github.com/networkservicemesh/networkservicemesh/controlplane/pkg/nsmd"
-	"github.com/networkservicemesh/networkservicemesh/controlplane/pkg/serviceregistry"
-	"github.com/networkservicemesh/networkservicemesh/sdk/prefix_pool"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/jaeger"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
-	nsmrbac "github.com/networkservicemesh/networkservicemesh/test/kubetest/rbac"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/registry"
+	nsmd2 "cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/nsmd"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/pkg/serviceregistry"
+	"cisco-app-networking.github.io/networkservicemesh/sdk/prefix_pool"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/jaeger"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
+	nsmrbac "cisco-app-networking.github.io/networkservicemesh/test/kubetest/rbac"
 )
 
 type NodeConf struct {

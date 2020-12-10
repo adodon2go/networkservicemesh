@@ -1,29 +1,20 @@
 module cisco-app-networking.github.io/networkservicemesh/k8s
 
-go 1.13
+go 1.15
 
 require (
-	github.com/golang/protobuf v1.3.3
-	github.com/networkservicemesh/networkservicemesh/controlplane v0.0.0-00010101000000-000000000000
-	github.com/networkservicemesh/networkservicemesh/controlplane/api v0.3.0
-	github.com/networkservicemesh/networkservicemesh/k8s v0.0.0-00010101000000-000000000000
-	github.com/networkservicemesh/networkservicemesh/k8s/pkg/apis v0.0.0-00010101000000-000000000000
-	github.com/networkservicemesh/networkservicemesh/pkg v0.3.0
-	github.com/networkservicemesh/networkservicemesh/sdk v0.0.0-00010101000000-000000000000
-	github.com/networkservicemesh/networkservicemesh/utils v0.3.0
+	github.com/golang/protobuf v1.3.2
 	github.com/onsi/gomega v1.7.0
-	github.com/pkg/errors v0.9.1
+	github.com/pkg/errors v0.8.1
 	github.com/sirupsen/logrus v1.4.2
-	golang.org/x/net v0.0.0-20200114155413-6afb5195e5aa
-	google.golang.org/grpc v1.27.1
+	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
+	google.golang.org/grpc v1.26.0
 	k8s.io/api v0.18.1
 	k8s.io/apimachinery v0.18.1
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/kubelet v0.0.0
 	k8s.io/kubernetes v1.18.1
 )
-
-// ./scripts/switch_k8s_version.sh to change k8s version
 
 replace (
 	github.com/census-instrumentation/opencensus-proto v0.1.0-0.20181214143942-ba49f56771b8 => github.com/census-instrumentation/opencensus-proto v0.0.3-0.20181214143942-ba49f56771b8
@@ -53,18 +44,4 @@ replace (
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.18.1
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.18.1
 	k8s.io/sample-controller => k8s.io/sample-controller v0.18.1
-)
-
-replace (
-	github.com/networkservicemesh/networkservicemesh => ../
-	github.com/networkservicemesh/networkservicemesh/controlplane => ../controlplane
-	github.com/networkservicemesh/networkservicemesh/controlplane/api => ../controlplane/api
-	github.com/networkservicemesh/networkservicemesh/forwarder => ../forwarder
-	github.com/networkservicemesh/networkservicemesh/forwarder/api => ../forwarder/api
-	github.com/networkservicemesh/networkservicemesh/k8s => ./
-	github.com/networkservicemesh/networkservicemesh/k8s/pkg/apis => ./pkg/apis
-	github.com/networkservicemesh/networkservicemesh/pkg => ../pkg
-	github.com/networkservicemesh/networkservicemesh/sdk => ../sdk
-	github.com/networkservicemesh/networkservicemesh/side-cars => ../side-cars
-	github.com/networkservicemesh/networkservicemesh/utils => ../utils
 )

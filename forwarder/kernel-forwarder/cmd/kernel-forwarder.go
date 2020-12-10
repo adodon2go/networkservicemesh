@@ -18,17 +18,17 @@ package main
 import (
 	"context"
 
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools/jaeger"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/jaeger"
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools/spanhelper"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools/spanhelper"
 
-	"github.com/networkservicemesh/networkservicemesh/pkg/probes"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/probes"
 
-	"github.com/networkservicemesh/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder"
-	"github.com/networkservicemesh/networkservicemesh/forwarder/pkg/common"
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
 )
 
 func main() {

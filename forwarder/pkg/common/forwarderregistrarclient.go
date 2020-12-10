@@ -24,8 +24,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/status"
 
-	"github.com/networkservicemesh/networkservicemesh/forwarder/api/forwarderregistrar"
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarderregistrar"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
 )
 
 var (

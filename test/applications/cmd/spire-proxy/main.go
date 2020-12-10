@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/networkservicemesh/networkservicemesh/pkg/security"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/security"
 
 	"github.com/pkg/errors"
 
@@ -14,8 +14,8 @@ import (
 	proto "github.com/spiffe/go-spiffe/proto/spiffe/workload"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools"
-	"github.com/networkservicemesh/networkservicemesh/utils"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"cisco-app-networking.github.io/networkservicemesh/utils"
 )
 
 type spireProxy struct {

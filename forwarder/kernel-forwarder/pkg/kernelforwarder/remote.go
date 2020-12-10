@@ -21,11 +21,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection"
-	common2 "github.com/networkservicemesh/networkservicemesh/controlplane/api/connection/mechanisms/common"
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/crossconnect"
-	. "github.com/networkservicemesh/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder/remote"
-	"github.com/networkservicemesh/networkservicemesh/forwarder/kernel-forwarder/pkg/monitoring"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
+	common2 "cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/common"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
+	. "cisco-app-networking.github.io/networkservicemesh/forwarder/kernel-forwarder/pkg/kernelforwarder/remote"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/kernel-forwarder/pkg/monitoring"
 )
 
 // handleRemoteConnection handles remote connect/disconnect requests for either incoming or outgoing connections

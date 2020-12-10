@@ -17,10 +17,10 @@ package main
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/networkservicemesh/sdk/common"
-	"github.com/networkservicemesh/networkservicemesh/utils"
+	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
+	"cisco-app-networking.github.io/networkservicemesh/utils"
 
-	nsm_init "github.com/networkservicemesh/networkservicemesh/side-cars/pkg/nsm-init"
+	nsm_init "cisco-app-networking.github.io/networkservicemesh/side-cars/pkg/nsm-init"
 )
 
 var version string

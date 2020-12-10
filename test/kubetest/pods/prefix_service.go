@@ -20,9 +20,9 @@ import (
 	v1 "k8s.io/api/core/v1"
 	v12 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/networkservicemesh/networkservicemesh/k8s/pkg/networkservice/namespace"
-	"github.com/networkservicemesh/networkservicemesh/k8s/pkg/prefixcollector"
-	"github.com/networkservicemesh/networkservicemesh/utils"
+	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/networkservice/namespace"
+	"cisco-app-networking.github.io/networkservicemesh/k8s/pkg/prefixcollector"
+	"cisco-app-networking.github.io/networkservicemesh/utils"
 )
 
 // PrefixServicePod creates pod that collects cluster network prefixes and stores them to ConfigMap

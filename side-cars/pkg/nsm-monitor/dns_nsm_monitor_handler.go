@@ -1,13 +1,13 @@
 package nsmmonitor
 
 import (
-	"github.com/networkservicemesh/networkservicemesh/utils"
-	"github.com/networkservicemesh/networkservicemesh/utils/caddyfile"
-	"github.com/networkservicemesh/networkservicemesh/utils/dnsconfig"
+	"cisco-app-networking.github.io/networkservicemesh/utils"
+	"cisco-app-networking.github.io/networkservicemesh/utils/caddyfile"
+	"cisco-app-networking.github.io/networkservicemesh/utils/dnsconfig"
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
 )
 
 //nsmDNSMonitorHandler implements Handler interface for handling dnsConfigs

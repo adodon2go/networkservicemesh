@@ -24,7 +24,7 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/artifacts"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/artifacts"
 )
 
 type k8sLogFinder struct {

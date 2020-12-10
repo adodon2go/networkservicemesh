@@ -8,7 +8,7 @@ FROM golang:${GO_VERSION}-alpine as build
 
 
 ENV GOPROXY=${GOPROXY}
-ENV PACKAGEPATH=github.com/networkservicemesh/networkservicemesh/forwarder
+ENV PACKAGEPATH=cisco-app-networking.github.io/networkservicemesh/forwarder
 ENV GO111MODULE=on
 
 RUN mkdir /root/networkservicemesh

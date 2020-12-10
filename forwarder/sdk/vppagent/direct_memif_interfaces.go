@@ -3,13 +3,13 @@ package vppagent
 import (
 	"context"
 
-	memiIf "github.com/networkservicemesh/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	memiIf "cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/crossconnect"
-	"github.com/networkservicemesh/networkservicemesh/forwarder/api/forwarder"
-	"github.com/networkservicemesh/networkservicemesh/forwarder/vppagent/pkg/memif"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/crossconnect"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/api/forwarder"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/vppagent/pkg/memif"
 )
 
 //DirectMemifInterfaces creates forwarder server handler for direct memif connections

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/networkservicemesh/networkservicemesh/utils"
+	"cisco-app-networking.github.io/networkservicemesh/utils"
 )
 
 const (

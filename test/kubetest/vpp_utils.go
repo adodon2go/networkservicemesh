@@ -10,8 +10,8 @@ import (
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/networkservicemesh/networkservicemesh/forwarder/pkg/common"
-	"github.com/networkservicemesh/networkservicemesh/test/kubetest/pods"
+	"cisco-app-networking.github.io/networkservicemesh/forwarder/pkg/common"
+	"cisco-app-networking.github.io/networkservicemesh/test/kubetest/pods"
 )
 
 // DeployVppAgentICMP - Setup VPP Agent based ICMP responder NSE
